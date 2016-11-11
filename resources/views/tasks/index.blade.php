@@ -37,8 +37,8 @@
         <div class="panel-body">
           <table class="table table-striped task-table">
             <thead>
-              <th class='col-sm-9'>Task</th>
-              <th class='col-sm-3'>Delete</th>
+              <th class='col-xs-9'>Task</th>
+              <th class='col-xs-3'>Delete</th>
             </thead>
             <tbody>
               @foreach ($tasksVariable as $task)
