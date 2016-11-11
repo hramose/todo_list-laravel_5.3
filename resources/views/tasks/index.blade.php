@@ -2,7 +2,7 @@
 
 
 @section('content')
-  <div class="panel-body">
+  <div class="panel-body container col-sm-offset-3 col-sm-6">
     @include('common.errors')
 
     <!-- new task form -->
@@ -37,8 +37,8 @@
         <div class="panel-body">
           <table class="table table-striped task-table">
             <thead>
-              <th>Task</th>
-              <th>Delete</th>
+              <th class='col-sm-9'>Task</th>
+              <th class='col-sm-3'>Delete</th>
             </thead>
             <tbody>
               @foreach ($tasksVariable as $task)
